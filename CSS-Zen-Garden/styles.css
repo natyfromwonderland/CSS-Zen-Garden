@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'Advent';
+  src: url('adventpro-regular-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@@font-face {
+  font-family: 'Advent';
+  src: url('adventpro-bold-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Advent', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-container,
+.footer {
+  width: 900px;
+  height: 150px;
+  background-image:#ff0000;background-image:
+   radial-gradient(at 33% 7%, hsla(28,100%,74%,1) 0, transparent 50%),
+   radial-gradient(at 0% 50%, hsla(355,85%,93%,1) 0, transparent 50%),
+   radial-gradient(at 94% 69%, hsla(340,100%,76%,1) 0, transparent 50%),
+   radial-gradient(at 18% 93%, hsla(22,100%,77%,1) 0, transparent 50%),
+   radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0, transparent 50%);
+  display: block;
+  justify-content: center;
+  align-items: left;
+  margin-left: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 364px;
+  height:auto;
+  padding: 20px;
+}
+
+.title {
+  display: block;
+  font-size: 20px;
+  color: #490606;
+  font-family: 'Advent', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.select-a-design,
+.main-body-indent,
+.main-body-other {
+  display:block;
+  align-items: left;
+  width: 200px;
+  height: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: 20px;
+}
+
+.top-list,
+.other-list {
+  color: #490606;
+  font-weight: 700;
+}
+
+.other-list {
+  font-weight: 300;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+ul {
+  padding: 10px;
+  list-style-type: circle;
+}
+
+article {
+  float: right;
+}
+
+.main-body-indent,
+.main-body-other {
+  position:relative;
+  justify-content: center;
+  text-align: left;
+  width: 680px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  position: relative;
+  float: right;
+  width: 900px;
+  height: 100px;
+}
+
+.footer-text {
+  padding: 40px 10px 40px 750px;
+  color: #007992;
+}
